@@ -1,30 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Bridge to the Real World - Design & Build
-Project : Mini City Map Viewer  (Track A: Software Job)
-Course  : Computer Graphics Sessional, Dept. of CSE, LU
-Stack   : Python + PyOpenGL + GLUT
-
-Techniques used (5 - the brief asks for at least 4):
-  1. Line & Shape Drawing  - roads, outlines, buildings, trees, cars, compass
-  2. 2D Transformations    - pan, zoom (to cursor), rotate: written BY HAND
-  3. Color Fill            - paint-bucket on city blocks
-  4. Line Clipping         - Cohen-Sutherland algorithm written BY HAND
-  5. Bezier Curves         - curved river and curved highway (cubic Bezier)
-
-Controls
-  Arrows / right-drag : pan          Wheel / + - : zoom (to cursor)
-  Q / E               : rotate       Left click  : paint bucket
-  1 - 5               : pick colour  C : clipping on/off
-  P : show Bezier points             N : day / night
-  Space : pause traffic              R : reset view      Esc : quit
-
-Comment style used everywhere (as required by the brief):
-  # কী করছে: ...                      (what it does)
-  # কেন লাগছে: ...                     (why it is needed)
-  # real world-এ এটা কোথায় দেখা যায়: ...  (where it is seen in the real world)
-"""
-
 import math
 import random
 import sys
